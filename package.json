@@ -1,0 +1,25 @@
+{
+  "name": "tp-redux-saga",
+  "version": "1.0.0",
+  "description": "An implementation of redux-saga",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx babel src --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oyvinmy/tp-redux-saga.git"
+  },
+  "author": "Øyvind Myklatun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oyvinmy/tp-redux-saga/issues"
+  },
+  "homepage": "https://github.com/oyvinmy/tp-redux-saga#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5"
+  }
+}
